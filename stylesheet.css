@@ -1,0 +1,191 @@
+body{
+    background-color: #f2e7d8;
+}
+
+.linebreak{
+    width: 620px;
+}
+
+h1{
+    font-family: 'YoungSerif';
+    margin-left: 50px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+@font-face {
+    font-family: YoungSerif;
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: OutfitRegular;
+    src: url('assets/fonts/outfit/static/Outfit-Regular.ttf')  format('truetype');
+}
+
+
+#omelette{
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#imgDiv{
+    width: fit-content;
+    padding: 40px;
+    margin: auto;
+}
+
+#mainDiv{
+    border-style: solid;
+    width: 700px;
+    height: fit-content;
+    margin: auto;
+    border-radius: 15px;
+    border-color: white;
+    background-color: white;
+}
+
+#paragraph1{
+    margin: auto;
+    padding: 0px 50px;
+    width: fit-content;
+    font-family: 'OutfitRegular';
+    font-size: 16px;
+    color: #7d7877;
+}
+
+#prepDiv{
+    border: 1px solid white;
+    background-color: #fff4fc;
+    width: 550px;
+    padding: 0px 0px 0px 20px;
+    border-radius: 15px;
+    margin: auto;
+    font-family: 'OutfitRegular';
+    font-size: 16px;
+    
+    h2{
+        font-family: 'OutfitRegular';
+        color: #853657;
+    }
+
+    strong{
+        font-family: 'OutfitRegular';
+        color: #6b6260;
+    }
+
+    li{
+        color: #7d7877;
+    }
+
+    li::marker{
+        color: #853657;
+    }
+}
+
+#ingredientsDiv{
+    margin: auto;
+    width: 615px;
+    font-size: 16px;
+    font-family: 'OutfitRegular';
+    
+    h2{
+        font-family: 'YoungSerif';
+        font-weight: 400;
+        color: #854c44;
+    }
+
+    ul{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    li{
+        padding-left: 15px;
+        color: #7d7877;
+    }
+
+    li::marker{
+        color: #854c44;
+    }
+}
+
+#instructionsDiv{
+    margin: auto;
+    width: 615px;
+    font-size: 16px;
+    font-family: 'OutfitRegular';
+
+    h2{
+        font-family: 'YoungSerif';
+        font-weight: 400;
+        color: #854c44;
+    }
+
+    strong{
+        font-family: 'OutfitRegular';
+        color: #6b6260;
+    }
+
+    ol{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    li{
+        padding-left: 15px;
+        color: #7d7877;
+    }
+
+    li::marker{
+        color: #854c44;
+        font-weight: bold;
+    }
+}
+
+#nutritionDiv{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 615px;
+    font-size: 16px;
+    font-family: 'OutfitRegular';
+    
+    .nutritionTable{
+        td{
+            padding-left: 30px;
+            color: #7d7877;
+        }
+        
+        th{
+            color: #854c44;
+        }
+
+        #th1{
+            padding-left: 260px;
+        }
+
+        #th2{
+            padding-left: 275px;
+        }
+
+        #th3{
+            padding-left: 265px;
+        }
+
+        #th4{
+            padding-left: 292px;
+        }
+    }
+
+    h2{
+        font-family: 'YoungSerif';
+        font-weight: 400;
+        color: #854c44;
+    }
+    
+    p{
+        color: #7d7877;
+        font-size: 16px;
+    }
+}
